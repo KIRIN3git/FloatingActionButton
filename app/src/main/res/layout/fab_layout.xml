@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fab"
+    android:orientation="vertical"
+    android:gravity="bottom|end"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/left_fab_layout"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="18sp"
+                android:text="左側"
+                android:gravity="center"
+                android:padding="6dp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fab_back2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.FloatingActionButton
+                app:fabSize="normal"
+                android:id="@+id/left_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_find_previous_disable"
+                app:backgroundTint="@color/nacolor_key_highlight_selected"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/right_fab_layout"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="18sp"
+                android:text="右側"
+                android:gravity="center"
+                android:padding="6dp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fab_back2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.FloatingActionButton
+                app:fabSize="normal"
+                android:id="@+id/right_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_find_next_disable"
+                app:backgroundTint="@color/nacolor_key_highlight_selected"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/main_fab_layout"
+            android:orientation="vertical"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                app:fabSize="normal"
+                android:layout_gravity="bottom"
+                android:id="@+id/main_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_action_display_type_list"
+                app:backgroundTint="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

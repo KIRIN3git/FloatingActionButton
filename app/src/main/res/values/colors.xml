@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="nacolor_key_highlight_selected">#E96640</color>
+    <color name="nacolor_ui_dark_medium_grayish_alpha2">#8043434B</color>
+</resources>
